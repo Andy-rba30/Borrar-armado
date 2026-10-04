@@ -1,0 +1,14 @@
+# Build
+bin/
+obj/
+*.user
+*.suo
+.vs/
+*.swp
+
+# Rider / VS Code
+.idea/
+.vscode/
+
+# Paquetes
+*.nupkg

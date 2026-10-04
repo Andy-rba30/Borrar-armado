@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Application">
+    <Name>Borrar Armado</Name>
+    <Assembly>BorrarArmado\BorrarArmado.dll</Assembly>
+    <AddInId>8F3A9D2E-5B6C-4E1F-9A7D-2C4B6E8F0A13</AddInId>
+    <FullClassName>BorrarArmado.App</FullClassName>
+    <VendorId>BARM</VendorId>
+    <VendorDescription>Borrar Armado - elimina el refuerzo de acero de los elementos seleccionados</VendorDescription>
+  </AddIn>
+</RevitAddIns>
