@@ -12,12 +12,14 @@ Global
 		Debug R2024|Any CPU = Debug R2024|Any CPU
 		Debug R2025|Any CPU = Debug R2025|Any CPU
 		Debug R2026|Any CPU = Debug R2026|Any CPU
+		Debug R2027|Any CPU = Debug R2027|Any CPU
 		Release R2021|Any CPU = Release R2021|Any CPU
 		Release R2022|Any CPU = Release R2022|Any CPU
 		Release R2023|Any CPU = Release R2023|Any CPU
 		Release R2024|Any CPU = Release R2024|Any CPU
 		Release R2025|Any CPU = Release R2025|Any CPU
 		Release R2026|Any CPU = Release R2026|Any CPU
+		Release R2027|Any CPU = Release R2027|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{B0A7C4D1-3E5F-4A6B-9C8D-1F2E3D4C5B6A}.Debug R2021|Any CPU.ActiveCfg = Debug R2021|Any CPU
@@ -32,6 +34,8 @@ Global
 		{B0A7C4D1-3E5F-4A6B-9C8D-1F2E3D4C5B6A}.Debug R2025|Any CPU.Build.0 = Debug R2025|Any CPU
 		{B0A7C4D1-3E5F-4A6B-9C8D-1F2E3D4C5B6A}.Debug R2026|Any CPU.ActiveCfg = Debug R2026|Any CPU
 		{B0A7C4D1-3E5F-4A6B-9C8D-1F2E3D4C5B6A}.Debug R2026|Any CPU.Build.0 = Debug R2026|Any CPU
+		{B0A7C4D1-3E5F-4A6B-9C8D-1F2E3D4C5B6A}.Debug R2027|Any CPU.ActiveCfg = Debug R2027|Any CPU
+		{B0A7C4D1-3E5F-4A6B-9C8D-1F2E3D4C5B6A}.Debug R2027|Any CPU.Build.0 = Debug R2027|Any CPU
 		{B0A7C4D1-3E5F-4A6B-9C8D-1F2E3D4C5B6A}.Release R2021|Any CPU.ActiveCfg = Release R2021|Any CPU
 		{B0A7C4D1-3E5F-4A6B-9C8D-1F2E3D4C5B6A}.Release R2021|Any CPU.Build.0 = Release R2021|Any CPU
 		{B0A7C4D1-3E5F-4A6B-9C8D-1F2E3D4C5B6A}.Release R2022|Any CPU.ActiveCfg = Release R2022|Any CPU
@@ -44,6 +48,8 @@ Global
 		{B0A7C4D1-3E5F-4A6B-9C8D-1F2E3D4C5B6A}.Release R2025|Any CPU.Build.0 = Release R2025|Any CPU
 		{B0A7C4D1-3E5F-4A6B-9C8D-1F2E3D4C5B6A}.Release R2026|Any CPU.ActiveCfg = Release R2026|Any CPU
 		{B0A7C4D1-3E5F-4A6B-9C8D-1F2E3D4C5B6A}.Release R2026|Any CPU.Build.0 = Release R2026|Any CPU
+		{B0A7C4D1-3E5F-4A6B-9C8D-1F2E3D4C5B6A}.Release R2027|Any CPU.ActiveCfg = Release R2027|Any CPU
+		{B0A7C4D1-3E5F-4A6B-9C8D-1F2E3D4C5B6A}.Release R2027|Any CPU.Build.0 = Release R2027|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -3,10 +3,11 @@
   <!--
     Plugin de Revit: Borrar Armado
     Compila para varias versiones de Revit con una configuración por versión:
-      dotnet build -c "Release R2024"
+      dotnet build -c "Release R2027"
       dotnet build -c "Release R2025"
     Revit 2021-2024 -> .NET Framework 4.8
     Revit 2025-2026 -> .NET 8 (windows)
+    Revit 2027      -> .NET 10 (windows)
   -->
 
   <PropertyGroup>
@@ -23,7 +24,7 @@
     <Version>1.0.0</Version>
     <Product>Borrar Armado</Product>
     <Description>Elimina todo el armado de acero (barras, mallas, refuerzos de área y trayectoria) de los elementos seleccionados en Revit.</Description>
-    <Configurations>Debug R2021;Debug R2022;Debug R2023;Debug R2024;Debug R2025;Debug R2026;Release R2021;Release R2022;Release R2023;Release R2024;Release R2025;Release R2026</Configurations>
+    <Configurations>Debug R2021;Debug R2022;Debug R2023;Debug R2024;Debug R2025;Debug R2026;Debug R2027;Release R2021;Release R2022;Release R2023;Release R2024;Release R2025;Release R2026;Release R2027</Configurations>
   </PropertyGroup>
 
   <!-- Versión de Revit y framework según la configuración elegida -->
@@ -51,11 +52,15 @@
     <RevitVersion>2026</RevitVersion>
     <TargetFramework>net8.0-windows</TargetFramework>
   </PropertyGroup>
+  <PropertyGroup Condition="$(Configuration.Contains('R2027'))">
+    <RevitVersion>2027</RevitVersion>
+    <TargetFramework>net10.0-windows</TargetFramework>
+  </PropertyGroup>
 
-  <!-- Si se compila con "Debug"/"Release" a secas, usar Revit 2025 por defecto -->
+  <!-- Si se compila con "Debug"/"Release" a secas, usar Revit 2027 por defecto -->
   <PropertyGroup Condition="'$(RevitVersion)' == ''">
-    <RevitVersion>2025</RevitVersion>
-    <TargetFramework>net8.0-windows</TargetFramework>
+    <RevitVersion>2027</RevitVersion>
+    <TargetFramework>net10.0-windows</TargetFramework>
   </PropertyGroup>
 
   <PropertyGroup>

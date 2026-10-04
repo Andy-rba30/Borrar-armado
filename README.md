@@ -42,19 +42,21 @@ automáticamente para no interrumpir el flujo. Los errores reales se siguen most
 |-------------|--------------------|------------------------------|
 | 2021 – 2024 | .NET Framework 4.8 | `Release R2021` … `Release R2024` |
 | 2025 – 2026 | .NET 8             | `Release R2025`, `Release R2026`  |
+| 2027        | .NET 10            | `Release R2027`                   |
 
 ## Compilación
 
-Requisitos: [SDK de .NET 8](https://dotnet.microsoft.com/download) (o Visual Studio 2022). No hace falta
+Requisitos: [SDK de .NET 10](https://dotnet.microsoft.com/download) para Revit 2027, o SDK de .NET 8 para
+versiones anteriores (Visual Studio 2022 o superior también sirve). No hace falta
 tener Revit instalado para compilar: los ensamblados de la API se descargan de NuGet
 (`Nice3point.Revit.Api.*`).
 
 ```powershell
-# Ejemplo para Revit 2025
-dotnet build src/BorrarArmado/BorrarArmado.csproj -c "Release R2025"
+# Revit 2027 (configuración predeterminada)
+dotnet build src/BorrarArmado/BorrarArmado.csproj -c "Release R2027"
 
-# Ejemplo para Revit 2024
-dotnet build src/BorrarArmado/BorrarArmado.csproj -c "Release R2024"
+# Otras versiones: cambia el sufijo, por ejemplo Revit 2025
+dotnet build src/BorrarArmado/BorrarArmado.csproj -c "Release R2025"
 ```
 
 En Windows, al terminar la compilación el plugin se copia automáticamente a:
